@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui;
+}
+.hero {
+  background-color: #1f2937;
+  height: 400px;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+nav h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+.main {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 0 100px;
+}
+.detail,
+.image {
+  flex: 1;
+}
+.detail .header {
+  font-size: 40px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.para {
+  color: #e5e7eb;
+}
+.detail button {
+  padding: 6px 25px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.image {
+  height: 150px;
+  width: 300px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image p {
+  color: #e5e7eb;
+}
+.random {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.random h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.boxes {
+  width: 50%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.each {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.each p {
+  text-align: center;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+.inspiration {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.author {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 250px;
+}
+.inspiration .ins {
+  max-width: 800px;
+  font-size: 36px;
+  color: #000;
+  font-style: italic;
+  font-weight: lighter;
+}
+.cta {
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action {
+  background-color: #3882f6;
+  width: 80%;
+  height: 120px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.words h3 {
+  color: #fff;
+}
+.words p {
+  color: #e5e7eb;
+}
+.action button {
+  padding: 3px 20px;
+  background-color: #3882f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  color: #fff;
+}
+.footer {
+  background-color: #1f2937;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.footer p {
+  color: #e5e7eb;
+}
